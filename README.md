@@ -13,8 +13,6 @@ https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales
 * Xmind
 
 ## Columns
-
-
-## Column Description
+![](Columns.png)
 
 
