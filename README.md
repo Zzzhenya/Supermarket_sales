@@ -7,3 +7,14 @@ https://www.kaggle.com/datasets/aungpyaeap/supermarket-sales
 ## Tools
 
 * Jupyter Lab
+
+* Python ( Pandas, Numpy, Seaborn, Matplotlib )
+
+* Xmind
+
+## Columns
+
+
+## Column Description
+
+
