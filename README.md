@@ -55,19 +55,19 @@ All products have the same gross margin percentage
 
 * Only Naypyitaw has a slight increase of ~208 (1%)
 
-### 4. Gross income by product line
+### 4. What is the gross income by product line ?
 
 * Gross income percentage of each product line is around 17%
 
 * "Health and beauty" is considerably below average (15%)
 
-### 5. Gross income by product line by City/Branch
+### 5. What is the gross income by product line by City/Branch?
 
 * Both total gross income and the percentage gross income of each product line when isolated by the city shows a considerable variance. 
 
 ** Might be a good parameter to explore later
 
-### 6. Total revenue by payment type
+### 6. What is the Total revenue by payment type?
 
 * There is relatively low amount of credit card revenue compared to Ewallet and Cash. About 3% less
 
@@ -77,7 +77,7 @@ All products have the same gross margin percentage
 
 * Yangon has highest revenue through Ewallet. The other methods seem to have relatively equi amounts.
 
-### 7. Men are more likely to purchase high price low quantity products.
+### 7. Are men more likely to purchase high price low quantity products?
 
 When average quantity and average unit price is considered against gender for all records;
 
