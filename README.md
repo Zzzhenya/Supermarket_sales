@@ -45,6 +45,14 @@ All products have the same gross margin percentage
 
 ** i.e.: For each store, extract one invoice where the customer bought only one type of product( Qty can be many) and product unit price is unique.
 
+#### Extension
+
+* Each record is unique to a combination of;
+    
+    "Product line","Unit price","Branch","Payment","Gender" or
+    
+    "Product line","Unit price","Branch","Payment","Customer type"
+
 ###  2. Which City/ Branch sold the highest quantity of products?
 
 * Sales quantities are almost equally divided among the three cities/branches.
@@ -90,3 +98,52 @@ When average quantity and average unit price is considered against gender for re
 * The differences are more visible. eg: In Naypyitaw average sales quantity has a considerable gap between males and females. (0.68, compared to 0.43 overall value)
 
 * Some cities show opposite patterns to overall pattern. eg: In Yangon average unit price sales by females is higher than males.
+
+### 8. Revenue fluctuation over time (datetime)
+
+* Because of the fixed tax rate and lack of margine the fluctuation patterns of daily sum of gross income and daily sum of invoice total trends are similarly shaped.
+
+* Daily sum of gross income might be an interesting field to analyze further because of the fluctuations.
+
+* Overall cumulative gross income as well as cumulative gross income of each city show a trend of linear steady increase.
+
+### 9. When (time, month, day) are people more likely to make purchases? Higher revenue
+
+Day of Week
+
+* The supermarket sales occuer all 7 days of the week at all three locations.
+
+* When considering total gross income by day of the week,the highest total revenue was made on Saturday, closely followed by Tuesday.
+
+* The lowest total revenue was made on Monday 
+
+Day of Week by City
+
+    * Lowest sales for Mandalay is Sunday
+
+    * Lowest sales for Naypyitaw is Monday
+
+    * Lowest sales for Yangon is Wednesday
+
+    * Highest sales for Mandalay is Saturday
+
+    * Highest sales for Naypyitaw is Saturday
+
+    * Highest sales for Yangon is Sunday
+
+
+* Because of this it is hard to generaize a particular day of week as the day with highest or lowest revenue.
+
+* One must also consider that this dataset is not a raw dataset and is already cleaned to be balanced for an unknown analysis.
+
+Hour of Day
+
+* When considering total gross income of all three supermarkets by the hour of day, 19th hour is the highest and the 20th hour is the lowest.
+
+When considering the total income by the hour of day of each supermarket seperately;
+
+* For some reason Mandalay has a significanly low total gross income in the 16th hour (4 - 4.59 PM).
+This is the lowest total gross income for any hour of all three cities.
+
+* Mandalay also has a significantly high total gross income in the 19th hour ( 7 - 8 PM).
+This is the highest total gross income for any hour of all three cities.
