@@ -29,6 +29,8 @@ All products have the same gross margin percentage
 
 ## Conclusions
 
+Creater of this dataset has balanced it for multiple fields.
+
 ### 1. Does products of the same product line have the same unit price?
 
 * Products of the same product line have different prices. >> One product line does not represent one product.
